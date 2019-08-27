@@ -1,6 +1,5 @@
 {
-    "extends": "airbnb-base",
-    "plugins": [
-        "import"
-    ]
+  "extends": "airbnb-base",
+  "plugins": ["import"],
+  "globals": { "fetch": false }
 }
