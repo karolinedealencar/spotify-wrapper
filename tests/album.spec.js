@@ -113,7 +113,7 @@ describe('Album', () => {
 
       const tracks2 = spotify.album.getTracks('4aawyAB9vmqN3uQ7FjRGTk');
       expect(stubedFetch).to.have.been.calledWith(
-        'https://api.spotify.com/v1/albums/4aawyAB9vmqN3uQ7FjRGTk',
+        'https://api.spotify.com/v1/albums/4aawyAB9vmqN3uQ7FjRGTk/tracks',
       );
     });
 
